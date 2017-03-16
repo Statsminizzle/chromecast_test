@@ -85,7 +85,6 @@
             android:thumbTint="@color/primary"/>
 
         <RelativeLayout
-            android:id="@+id/control_bar"
             android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_alignParentBottom="true" >
