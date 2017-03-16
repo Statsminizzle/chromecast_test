@@ -124,7 +124,7 @@ public class LocalPlayerActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.player_activity);
+        setContentView(R.layout.cast_player_activity);
         mAquery = new AQuery(this);
         loadViews();
         setupControlsCallbacks();

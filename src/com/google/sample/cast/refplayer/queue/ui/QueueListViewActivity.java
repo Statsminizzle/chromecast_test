@@ -151,7 +151,7 @@ public class QueueListViewActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.queue_activity);
+        setContentView(R.layout.cast_queue_activity);
         Log.d(TAG, "onCreate() was called");
 
         if (savedInstanceState == null) {

@@ -107,7 +107,7 @@ public class VideoBrowserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.video_browser);
+        setContentView(R.layout.cast_video_browser);
         setupActionBar();
 
         mCastStateListener = new CastStateListener() {

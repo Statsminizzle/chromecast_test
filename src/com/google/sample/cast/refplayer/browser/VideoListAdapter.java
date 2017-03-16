@@ -53,7 +53,7 @@ public class VideoListAdapter extends RecyclerView.Adapter<VideoListAdapter.View
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup viewGroup, int viewType) {
         Context context = viewGroup.getContext();
-        View parent = LayoutInflater.from(context).inflate(R.layout.browse_row, viewGroup, false);
+        View parent = LayoutInflater.from(context).inflate(R.layout.cast_browse_row, viewGroup, false);
         return ViewHolder.newInstance(parent);
     }
 

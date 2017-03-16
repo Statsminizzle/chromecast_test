@@ -54,7 +54,7 @@ public class QueueListViewFragment extends Fragment
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container,
             @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_recycler_list_view, container, false);
+        return inflater.inflate(R.layout.cast_fragment_recycler_list_view, container, false);
     }
 
     @Override

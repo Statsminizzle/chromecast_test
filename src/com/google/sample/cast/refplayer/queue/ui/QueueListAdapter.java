@@ -116,7 +116,7 @@ public class QueueListAdapter extends RecyclerView.Adapter<QueueListAdapter.Queu
     @Override
     public QueueItemViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         final LayoutInflater inflater = LayoutInflater.from(parent.getContext());
-        final View view = inflater.inflate(R.layout.queue_row, parent, false);
+        final View view = inflater.inflate(R.layout.cast_queue_row, parent, false);
         return new QueueItemViewHolder(view);
     }
 
