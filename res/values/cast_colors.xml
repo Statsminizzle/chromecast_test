@@ -20,11 +20,11 @@
     <color name="white">#FFFFFF</color>
 
     <!-- Queue -->
-    <color name="bg_item_normal_state">#fff0f0f0</color>
-    <color name="bg_item_upcoming_state">@color/primary</color>
-    <color name="bg_item_normal_pressed_state">#ffe0e0e0</color>
+    <color name="cast_bg_item_normal_state">#fff0f0f0</color>
+    <color name="cast_bg_item_upcoming_state">@color/primary</color>
+    <color name="cast_bg_item_normal_pressed_state">#ffe0e0e0</color>
 
-    <color name="bg_swipe_item_right">#ffdb4437</color>
+    <color name="cast_bg_swipe_item_right">#ffdb4437</color>
 
     <color name="primary">#03A9F4</color>
     <color name="primary_dark">#0288D1</color>

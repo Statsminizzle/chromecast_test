@@ -22,7 +22,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content" >
     <View android:layout_width="match_parent" android:layout_height="match_parent"
-          android:background="@drawable/bg_swipe_item_right" />
+          android:background="@drawable/cast_bg_swipe_item_right" />
 
     <RelativeLayout
         android:id="@+id/container"
@@ -37,7 +37,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
             android:layout_marginRight="@dimen/queue_drag_margin_right"
-            android:src="@drawable/ic_drag_updown_grey_24dp" />
+            android:src="@drawable/cast_ic_drag_updown_grey_24dp" />
 
         <RelativeLayout
             android:id="@+id/controls"
@@ -54,7 +54,7 @@
                 android:layout_marginRight="16dp"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:visibility="gone"
-                android:src="@drawable/ic_play_arrow_grey600_48dp" />
+                android:src="@drawable/cast_ic_play_arrow_grey600_48dp" />
 
             <LinearLayout
                 android:id="@+id/controls_upcoming"
@@ -71,7 +71,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="10dp"
                     android:background="?attr/selectableItemBackgroundBorderless"
-                    android:src="@drawable/ic_mini_controller_upcoming_play" />
+                    android:src="@drawable/cast_ic_mini_controller_upcoming_play" />
 
                 <ImageButton
                     android:id="@+id/stop_upcoming"
@@ -80,7 +80,7 @@
                     android:layout_centerVertical="true"
                     android:layout_marginRight="20dp"
                     android:background="?attr/selectableItemBackgroundBorderless"
-                    android:src="@drawable/ic_mini_controller_upcoming_stop" />
+                    android:src="@drawable/cast_ic_mini_controller_upcoming_stop" />
 
             </LinearLayout>
 
@@ -93,7 +93,7 @@
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_alignParentTop="true"
-            android:src="@drawable/default_video" />
+            android:src="@drawable/cast_default_video" />
 
         <LinearLayout
             android:id="@+id/text_container"
@@ -133,7 +133,7 @@
             android:layout_width="match_parent"
             android:layout_height="1dp"
             android:layout_toRightOf="@+id/imageView1"
-            android:background="@drawable/vertical_divider" />
+            android:background="@drawable/cast_vertical_divider" />
 
     </RelativeLayout>
 </FrameLayout>

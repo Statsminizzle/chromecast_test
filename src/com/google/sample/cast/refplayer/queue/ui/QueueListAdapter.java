@@ -54,10 +54,10 @@ public class QueueListAdapter extends RecyclerView.Adapter<QueueListAdapter.Queu
     private static final String TAG = "QueueListAdapter";
     private static final int IMAGE_THUMBNAIL_WIDTH = 64;
     private final QueueDataProvider mProvider;
-    private static final int PLAY_RESOURCE = R.drawable.ic_play_arrow_grey600_48dp;
-    private static final int PAUSE_RESOURCE = R.drawable.ic_pause_grey600_48dp;
-    private static final int DRAG_HANDLER_DARK_RESOURCE = R.drawable.ic_drag_updown_grey_24dp;
-    private static final int DRAG_HANDLER_LIGHT_RESOURCE = R.drawable.ic_drag_updown_white_24dp;
+    private static final int PLAY_RESOURCE = R.drawable.cast_ic_play_arrow_grey600_48dp;
+    private static final int PAUSE_RESOURCE = R.drawable.cast_ic_pause_grey600_48dp;
+    private static final int DRAG_HANDLER_DARK_RESOURCE = R.drawable.cast_ic_drag_updown_grey_24dp;
+    private static final int DRAG_HANDLER_LIGHT_RESOURCE = R.drawable.cast_ic_drag_updown_white_24dp;
     private final Context mAppContext;
     private final OnStartDragListener mDragStartListener;
     private View.OnClickListener mItemViewOnClickListener;
@@ -143,7 +143,7 @@ public class QueueListAdapter extends RecyclerView.Adapter<QueueListAdapter.Queu
         if (!metaData.getImages().isEmpty()) {
             aq.id(holder.mImageView).width(IMAGE_THUMBNAIL_WIDTH)
                     .image(metaData.getImages().get(0).getUrl().toString(), true, true, 0,
-                            R.drawable.default_video, null, 0, ASPECT_RATIO);
+                            R.drawable.cast_default_video, null, 0, ASPECT_RATIO);
         }
 
         holder.mDragHandle.setOnTouchListener(new View.OnTouchListener() {
@@ -246,13 +246,13 @@ public class QueueListAdapter extends RecyclerView.Adapter<QueueListAdapter.Queu
         }
 
         private void updateControlsStatus(@ControlStatus int status) {
-            int bgResId = R.drawable.bg_item_normal_state;
+            int bgResId = R.drawable.cast_bg_item_normal_state;
             mTitleView.setTextAppearance(mContext, R.style.Base_TextAppearance_AppCompat_Subhead);
             mDescriptionView.setTextAppearance(mContext,
                     R.style.Base_TextAppearance_AppCompat_Caption);
             switch (status) {
                 case CURRENT:
-                    bgResId = R.drawable.bg_item_normal_state;
+                    bgResId = R.drawable.cast_bg_item_normal_state;
                     mControls.setVisibility(View.VISIBLE);
                     mPlayPause.setVisibility(View.VISIBLE);
                     mUpcomingControls.setVisibility(View.GONE);
@@ -263,7 +263,7 @@ public class QueueListAdapter extends RecyclerView.Adapter<QueueListAdapter.Queu
                     mPlayPause.setVisibility(View.GONE);
                     mUpcomingControls.setVisibility(View.VISIBLE);
                     mDragHandle.setImageResource(DRAG_HANDLER_LIGHT_RESOURCE);
-                    bgResId = R.drawable.bg_item_upcoming_state;
+                    bgResId = R.drawable.cast_bg_item_upcoming_state;
                     mTitleView.setTextAppearance(mContext,
                             R.style.TextAppearance_AppCompat_Small_Inverse);
                     mTitleView.setTextAppearance(mTitleView.getContext(),

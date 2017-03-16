@@ -628,7 +628,7 @@ public class LocalPlayerActivity extends AppCompatActivity {
                 mLoading.setVisibility(View.INVISIBLE);
                 mPlayPause.setVisibility(View.VISIBLE);
                 mPlayPause.setImageDrawable(
-                        getResources().getDrawable(R.drawable.ic_av_pause_dark));
+                        getResources().getDrawable(R.drawable.cast_ic_av_pause_dark));
                 mPlayCircle.setVisibility(isConnected ? View.VISIBLE : View.GONE);
                 break;
             case IDLE:
@@ -641,7 +641,7 @@ public class LocalPlayerActivity extends AppCompatActivity {
                 mLoading.setVisibility(View.INVISIBLE);
                 mPlayPause.setVisibility(View.VISIBLE);
                 mPlayPause.setImageDrawable(
-                        getResources().getDrawable(R.drawable.ic_av_play_dark));
+                        getResources().getDrawable(R.drawable.cast_ic_av_play_dark));
                 mPlayCircle.setVisibility(isConnected ? View.VISIBLE : View.GONE);
                 break;
             case BUFFERING:

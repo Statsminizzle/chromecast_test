@@ -33,7 +33,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentTop="true"
             android:scaleType="fitXY"
-            android:src="@drawable/default_video" />
+            android:src="@drawable/cast_default_video" />
 
         <LinearLayout
             android:id="@+id/text_container"
@@ -75,7 +75,7 @@
             android:layout_marginTop="1dp"
             android:paddingRight="@dimen/browse_row_popup_menu_margin_right"
             android:visibility="visible"
-            android:src="@drawable/ic_more_vert_grey600_24dp"
+            android:src="@drawable/cast_ic_more_vert_grey600_24dp"
             android:background="?attr/selectableItemBackground"/>
 
     </RelativeLayout>

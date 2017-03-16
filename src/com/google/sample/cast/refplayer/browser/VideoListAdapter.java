@@ -142,7 +142,7 @@ public class VideoListAdapter extends RecyclerView.Adapter<VideoListAdapter.View
 
         public void setImage(String imgUrl) {
             mAquery.id(mImgView).width(114).image(imgUrl,
-                    true, true, 0, R.drawable.default_video, null, 0, ASPECT_RATIO);
+                    true, true, 0, R.drawable.cast_default_video, null, 0, ASPECT_RATIO);
         }
 
         public void setOnClickListener(View.OnClickListener listener) {

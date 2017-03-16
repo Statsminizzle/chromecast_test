@@ -55,7 +55,7 @@
 
         <ImageButton
             android:id="@+id/play_circle"
-            android:src="@drawable/ic_play_circle_white_80dp"
+            android:src="@drawable/cast_ic_play_circle_white_80dp"
             android:layout_centerInParent="true"
             android:background="?attr/selectableItemBackgroundBorderless"
             android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
         android:layout_alignRight="@+id/videoView1"
         android:layout_alignTop="@+id/videoView1"
         android:visibility="visible"
-        android:background="@drawable/player_bg_gradient_dark" >
+        android:background="@drawable/cast_player_bg_gradient_dark" >
 
         <ProgressBar
             android:id="@+id/progressBar1"
@@ -94,7 +94,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:src="@drawable/ic_av_pause_dark" />
+                android:src="@drawable/cast_ic_av_pause_dark" />
 
             <TextView
                 android:id="@+id/startText"

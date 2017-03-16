@@ -109,7 +109,7 @@ public class Utils {
                         dialog.cancel();
                     }
                 })
-                .setIcon(R.drawable.ic_action_alerts_and_states_warning)
+                .setIcon(R.drawable.cast_ic_action_alerts_and_states_warning)
                 .create()
                 .show();
     }
