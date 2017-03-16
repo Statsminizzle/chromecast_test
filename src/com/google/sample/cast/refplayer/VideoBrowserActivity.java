@@ -24,7 +24,6 @@ import com.google.android.gms.cast.framework.CastStateListener;
 import com.google.android.gms.cast.framework.IntroductoryOverlay;
 import com.google.android.gms.cast.framework.SessionManagerListener;
 import com.google.sample.cast.refplayer.queue.ui.QueueListViewActivity;
-import com.google.sample.cast.refplayer.settings.CastPreference;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -148,10 +147,7 @@ public class VideoBrowserActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent intent;
-        if (item.getItemId() == R.id.action_settings) {
-            intent = new Intent(VideoBrowserActivity.this, CastPreference.class);
-            startActivity(intent);
-        } else if (item.getItemId() == R.id.action_show_queue) {
+        if (item.getItemId() == R.id.action_show_queue) {
             intent = new Intent(VideoBrowserActivity.this, QueueListViewActivity.class);
             startActivity(intent);
         }

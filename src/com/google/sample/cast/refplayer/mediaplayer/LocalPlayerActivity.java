@@ -28,7 +28,6 @@ import com.google.sample.cast.refplayer.R;
 import com.google.sample.cast.refplayer.browser.VideoProvider;
 import com.google.sample.cast.refplayer.expandedcontrols.ExpandedControlsActivity;
 import com.google.sample.cast.refplayer.queue.ui.QueueListViewActivity;
-import com.google.sample.cast.refplayer.settings.CastPreference;
 import com.google.sample.cast.refplayer.utils.Utils;
 
 import com.androidquery.AQuery;
@@ -734,10 +733,7 @@ public class LocalPlayerActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         Intent intent;
-        if (item.getItemId() == R.id.action_settings) {
-            intent = new Intent(LocalPlayerActivity.this, CastPreference.class);
-            startActivity(intent);
-        } else if (item.getItemId() == R.id.action_show_queue) {
+        if (item.getItemId() == R.id.action_show_queue) {
             intent = new Intent(LocalPlayerActivity.this, QueueListViewActivity.class);
             startActivity(intent);
         } else if (item.getItemId() == android.R.id.home) {

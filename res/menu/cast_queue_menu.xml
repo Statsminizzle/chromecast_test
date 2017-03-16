@@ -28,10 +28,4 @@
         android:id="@+id/action_clear_queue"
         android:title="@string/action_clear_queue"
         app:showAsAction="never" />
-
-    <item
-        android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
-
 </menu>

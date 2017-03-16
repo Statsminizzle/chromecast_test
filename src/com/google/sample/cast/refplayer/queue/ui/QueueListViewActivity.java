@@ -25,7 +25,6 @@ import com.google.android.gms.cast.framework.SessionManagerListener;
 import com.google.android.gms.cast.framework.media.RemoteMediaClient;
 import com.google.sample.cast.refplayer.R;
 import com.google.sample.cast.refplayer.queue.QueueDataProvider;
-import com.google.sample.cast.refplayer.settings.CastPreference;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -195,9 +194,6 @@ public class QueueListViewActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.action_settings:
-                startActivity(new Intent(QueueListViewActivity.this, CastPreference.class));
-                break;
             case R.id.action_clear_queue:
                 QueueDataProvider.getInstance(getApplicationContext()).removeAll();
                 break;

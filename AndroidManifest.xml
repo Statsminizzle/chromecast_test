@@ -58,14 +58,6 @@
             </intent-filter>
         </activity>
         <activity
-                android:name="com.google.sample.cast.refplayer.settings.CastPreference"
-                android:theme="@style/Theme.AppCompat"
-                android:label="@string/action_settings">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-            </intent-filter>
-        </activity>
-        <activity
                 android:name=".queue.ui.QueueListViewActivity"
                 android:label="@string/queue_list"
                 android:screenOrientation="portrait">
